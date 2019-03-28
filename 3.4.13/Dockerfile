@@ -11,6 +11,7 @@ ENV ZOO_USER=zookeeper \
     ZOO_DATA_LOG_DIR=/datalog \
     ZOO_LOG_DIR=/logs \
     ZOO_PORT=2181 \
+    ZOO_PORT_ADDRESS=0.0.0.0 \
     ZOO_TICK_TIME=2000 \
     ZOO_INIT_LIMIT=5 \
     ZOO_SYNC_LIMIT=2 \
